@@ -2,7 +2,8 @@ $( document ).ready(function() {
 
 	//adding highlight to menu selection
 	$('nav a, .nav2 a').on('click', function() {
-		$(this).addClass('active');  $(this).parents('li').siblings().children('a').removeClass('active');
+		$(this).addClass('active');
+		$(this).parents('li').siblings().children('a').removeClass('active');
 	});
 
 	$( ".academics" ).click(function() {
