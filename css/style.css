@@ -1,0 +1,282 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: #7CBBEA;
+}
+a:hover, nav a.active, ul.nav2 a.active {
+  text-decoration: underline;
+}
+
+/* SIDEBAR *********************************/
+.sidebar {
+  position: absolute;
+  width: 220px;
+  height: 100%;
+  background: #34495E;
+  z-index: 1;
+}
+
+.user {
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  background: #2DCC70;
+}
+.user img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50px;
+  margin-right: 5px;
+  border-radius: 100%;
+}
+.user .username {
+  color: white;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  margin-top:10px;
+  margin-bottom: 0px;
+  padding: 0;
+}
+nav a {
+  text-decoration: none;
+  display: block;
+  padding: 15px 0 15px 30px;
+  color: #bbb;
+  letter-spacing: 1px;
+}
+
+nav a.submenu {
+  text-decoration: none;
+  font-size: 13px;
+  display: block;
+  padding: 7px 0 7px 40px;
+  margin-top: 0px;
+  color: #bbb;
+  letter-spacing: 1px;
+}
+
+nav a:hover, nav a.active, nav ul.nav2 a.active, ul.nav2 nav a.active {
+  text-decoration: none;
+  background: #222f3d;
+  color: white;
+}
+
+/* MAIN ***********************************/
+.main {
+  position: absolute;
+  right: 0;
+  width: calc(100% - 220px);
+  height: 100%;
+  background: #ddd;
+}
+
+/* HEADER */
+header {
+  position: relative;
+  width: 100%;
+  height: 270px;
+  background: white;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+header .top {
+  width: 100%;
+  height: 90px;
+  padding: 20px 30px 0 30px;
+  border-bottom: 2px solid #ddd;
+  overflow: hidden;
+}
+
+.notifications {
+  display: inline-block;
+}
+
+.notifications .icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border: 3px solid #ddd;
+  border-radius: 5px;
+}
+
+.logo {
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 50%;
+  height: 40px;
+  text-align: center;
+  line-height: 42px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #2DCC70;
+}
+
+.search {
+  float: right;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 90%;
+  outline: none;
+  border: none;
+  color: #2DCC70;
+  text-align: left;
+}
+.search:focus {
+  border-bottom: 1px solid #2DCC70;
+}
+
+header .bottom {
+  padding: 20px 30px 0 30px;
+}
+
+.identity {
+  display: inline-block;
+  min-width: 250px;
+}
+.identity img {
+  float: left;
+  display: inline-block;
+  vertical-align: top;
+  width: 80px;
+  margin-right: 15px;
+  border-radius: 100%;
+}
+.identity .name {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 3px;
+}
+.identity .info {
+  color: #888;
+}
+
+.logout {
+  position: relative;
+  float: right;
+  padding: 5px 10px;
+  color: tomato;
+  font-weight: bold;
+  border: 2px solid tomato;
+  cursor: pointer;
+  user-select: none;
+}
+.logout:hover, nav a.logout.active, ul.nav2 a.logout.active {
+  background: tomato;
+  color: white;
+}
+.logout:active {
+  top: 1px;
+}
+
+ul.nav2 {
+  position: absolute;
+  bottom: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+}
+ul.nav2 li {
+  display: inline-block;
+  float: left;
+}
+ul.nav2 a {
+  display: inline-block;
+  padding: 7px 0;
+  margin-right: 30px;
+  color: black;
+}
+ul.nav2 a:hover, ul.nav2 a.active {
+  border-bottom: 4px solid #2DCC70;
+  text-decoration: none;
+}
+
+/* PAGE *************************************/
+/* GRID */
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+}
+
+.col {
+  display: block;
+  float: left;
+  margin: 0 0 2% 2%;
+}
+
+.col:first-child {
+  margin-left: 0;
+}
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1;
+  /* For IE 6/7 */
+}
+
+/*  GRID OF THREE  */
+.span_3_of_3 {
+  width: 100%;
+}
+
+.span_2_of_3 {
+  width: 66%;
+}
+
+.span_1_of_3 {
+  width: 32%;
+}
+
+.page {
+  padding: 20px;
+}
+
+.col {
+  height: 200px;
+  padding: 15px;
+  background: white;
+  color: #666;
+  line-height: 1.5em;
+  border-radius: 3px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.aboutSUB{
+  display: none;
+}
+.academicsSUB{
+  display: none;
+}
+.extraSUB{
+  display: none;
+}
+.agendaSUB{
+  display: none;
+}
