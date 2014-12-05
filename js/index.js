@@ -11,12 +11,6 @@ $( document ).ready(function() {
 		$(this).removeClass('active');
 	});
 
-	// Adding highlight to menu selection
-	// $(".nav2 a").on('click', function() {
-	// 	$(this).addClass('active');
-	// 	$(this).parents('li').siblings().children('a').removeClass('active');
-	// });
-
 	// Toggle Script
 	$(".toggle-button").click(function() {
 		toggleViews($(this));
@@ -24,20 +18,24 @@ $( document ).ready(function() {
 		$(this).addClass("active");
 	});
 
+	$('img').on('dragstart', function(event) {
+		event.preventDefault();
+	});
+
 	$( ".academics" ).click(function() {
-		$(".academicsSUB").toggle();
+		$(".academicsSUB").toggleClass("hidden");
 	});
 
 	$( ".extra" ).click(function() {
-		$(".extraSUB").toggle();
+		$(".extraSUB").toggleClass("hidden");
 	});
 
 	$( ".agenda" ).click(function() {
-		$(".agendaSUB").toggle();
+		$(".agendaSUB").toggleClass("hidden");
 	});
 
 	$( ".about" ).click(function() {
-		$(".aboutSUB").toggle();
+		$(".aboutSUB").toggleClass("hidden");
 	});
 
 });
