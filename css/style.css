@@ -475,3 +475,20 @@ ul.colored li:before {
 .homeCase:hover{
   text-decoration: none;
 }
+
+.breadCrumb a{
+
+  color: #64c4b6;
+  
+  font-size: 13px;
+}
+.breadCrumb{
+  padding-top: 15px;
+  color: #64c4b6;
+  font-size: 13px;
+}
+
+.breadArrow{
+  vertical-align: middle;
+  color: #696969;
+}
