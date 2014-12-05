@@ -27,13 +27,13 @@
       <nav role='navigation'>
         <ul>
           <li><a class= "about" href="#">About</a></li>
-          <ul class="subnavigation aboutSUB hidden">
-            <li><a class= "submenu" href="programs.html">Programs</a></li>
+          <ul class="subnavigation aboutSUB">
+            <li><a class= "submenu active">Programs</a></li>
             <li><a class= "submenu" href="#">Degrees</a></li>
             <li><a class= "submenu" href="#">Our People</a></li>
           </ul>
           <li><a class= "academics" href="#">Academics</a></li>
-          <ul class="subnavigation academicsSUB">
+          <ul class="subnavigation academicsSUB hidden">
             <li><a class= "submenu" href="#">Undergraduate</a></li>
             <li><a class= "submenu" href="#">Graduate</a></li>
             <li><a class= "submenu" href="#">Research</a></li>
@@ -77,17 +77,16 @@
         <div class="bottom">
           <!-- identity -->
           <div class="identity">
-            <!-- <img src="img/user.jpg" /> -->
-            <span class="name"><h2>Computer Vision</h2></span>
-            <span class="info"><h3>DMET 901</h3></span>
+            <img src="img/user.jpg" />
+            <span class="name">Programs</span>
           </div>
 
           <!-- secondary nav -->
           <ul class="nav2">
-            <li><a href="#" class="active toggle-button" data-target="home-page" data-class="page">HOME</a></li>
-            <li><a href="#" class="toggle-button" data-target="material-page" data-class="page">MATERIAL</a></li>
-            <li><a href="#" class="toggle-button" data-target="calendar-page" data-class="page">CALENDAR</a></li>
-            <li><a href="#">SUBMITION</a></li>
+            <li><a href="#" class="active toggle-button" data-target="overview-page" data-class="page">MET Overview</a></li>
+            <li><a href="#" class="toggle-button" data-target="description-page" data-class="page">Programs Description</a></li>
+            <li><a href="#" class="toggle-button" data-target="csen-page" data-class="page">CSEN Career Opportunities</a></li>
+            <li><a href="#" class="toggle-button" data-target="dmet-page" data-class="page">DMET Career Opportunities</a></li>
           </ul>
         </div>
       </header>
@@ -95,26 +94,34 @@
 
       <!-- Page
         ================================================== -->
-      <div class="page home-page group">
+      <div class="page overview-page group">
         <div class="section">
-          <div class="col col-img span_3_of_3">
-            <img src="img/Course/material.png">
+          <div class="col col-img span_3_of_3 widget">
+            <img src="img/Programs/overview.png"> 
           </div>
         </div>
       </div>
 
-      <div class="page material-page group hidden">
+      <div class="page description-page group hidden">
         <div class="section">
-          <div class="col col-img span_3_of_3">
-            <img src="img/Course/material.png">
+          <div class="col col-img span_3_of_3 widget">
+            <img src="img/Programs/description.png"> 
           </div>
         </div>
       </div>
 
-      <div class="page calendar-page group hidden">
+      <div class="page csen-page group hidden">
         <div class="section">
-          <div class="col col-img span_3_of_3">
-            <img src="img/Course/calendar.png">
+          <div class="col col-img span_3_of_3 widget">
+            <img src="img/Programs/csen.png"> 
+          </div>
+        </div>
+      </div>
+
+      <div class="page dmet-page group hidden">
+        <div class="section">
+          <div class="col col-img span_3_of_3 widget">
+            <img src="img/Programs/dmet.png"> 
           </div>
         </div>
       </div>
