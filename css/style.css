@@ -316,6 +316,15 @@ ul.nav2 a:hover, ul.nav2 a.active {
   width: 32%;
 }
 
+.span_1_of_3Home {
+  width: 45%;
+}
+
+.span_2_of_3Home {
+  width: 25%;
+}
+
+
 .page {
   padding: 20px;
 }
@@ -405,3 +414,14 @@ width: 30px;
   padding-top: 0px;
   margin-top: 0px;
 }
+
+.quote{
+  text-align: center;
+  vertical-align: middle;
+}
+
+.centered{
+  width: 100%;
+  text-align: center;
+}
+
