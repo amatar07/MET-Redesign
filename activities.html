@@ -20,9 +20,11 @@
    <!-- SIDEBAR
       ================================================== -->
     <div class="sidebar">
-      <div class="user">
+      <a href="home.html">
+      <div class="user" >
         <img src="img/logo.png" />
       </div>
+      </a>
 
       <nav role='navigation'>
         <ul class= "allList">
@@ -33,18 +35,20 @@
           </li>
           <ul class="subnavigation aboutSUB hidden">
             <li><a class= "submenu" href="programs.html">Programs</a></li>
-            <li><a class= "submenu" href="#">Degrees</a></li>
+            <li><a class= "submenu" href="degrees.html">Degrees</a></li>
             <li><a class= "submenu" href="#">Our People</a></li>
           </ul>
 
           <li class= "academics allListBorder" >
             <img class ="arrow academicsRight" src="img/arrowRightWhite.png" />
             <img class ="arrow hidden academicsDown" src="img/arrowDownWhite.png" />
-            <a class= "academics1" href="#">Academics</a>
+
+            <a class= "academics1"href="#">Academics</a>
           </li>
           <ul class="subnavigation academicsSUB hidden">
-            <li><a class= "submenu" href="#">Undergraduate</a></li>
-            <li><a class= "submenu" href="#">Graduate</a></li>
+            <li><a class= "submenu" href="courses.html">Undergraduate</a></li>
+            <li><a class= "submenu" href="courses2.html">Graduate</a></li>
+
             <li><a class= "submenu active" href="research.html">Research</a></li>
           </ul>
 
@@ -53,8 +57,10 @@
             <img class ="arrow hidden extraDown" src="img/arrowDownWhite.png" />
             <a class= "extra1 addBorderLeft" href="#">Extras</a>
           </li>
+
           <ul class="subnavigation extraSUB">
             <li><a class= "submenu active" href="activities.html">Activities</a></li>
+
             <li><a class= "submenu" href="#">Online Tutorials</a></li>
             <li><a class= "submenu" href="#">Show Case</a></li>
             <li><a class= "submenu" href="#">Forum</a></li>
@@ -84,22 +90,30 @@
           ================================================== -->
         <div class="top">
           <!-- notifications -->
-          <div class="notifications">
-            <img class ="userPic" src="img/user.jpg" />
-            <span class="username">Ahmed Matar</span>
-            <img class ="options" src="img/arrowDownProfile.png" />
-          </div>
+          <a href="profile.html">
+            <div class="notifications">
+              <img class ="userPic" src="img/user.jpg" />
+              <span class="username">Ahmed Matar</span>
+              <img class ="options" src="img/arrowDownProfile.png" />
+            </div>
+          </a>
           <!-- <div class="logo"><img src="img/logo.png"></div> -->
           <input class="search" type="text" placeholder="Search Courses, lecturers..." />
         </div>
 
         <div class="bottom">
           <!-- identity -->
-            <div class="identity">
+          <div class="identity">
             <!--<img src="img/user.jpg" />-->
             <span class="name"><h2>Activities</h2></span>
+          </div>
+
           <!-- secondary nav -->
-         
+          <ul class="nav2">
+            <li><a href="#" class="active toggle-button" data-target="overview-page" data-class="page">J-TAP</a></li>
+            <li><a href="#" class="toggle-button" data-target="description-page" data-class="page">ACM</a></li>
+            <li><a href="#" class="toggle-button" data-target="csen-page" data-class="page">Ju-Jutsu</a></li>
+          </ul>
         </div>
       </header>
 
@@ -108,18 +122,49 @@
         ================================================== -->
       <div class="page overview-page group">
         <div class="section">
-          <div class="span_3_of_3 widget padding">
+          <div class="span_3_of_3 widget padding">    
+          <div class="span_3_of_3 sec-content" style="border-bottom: 0">       
+                    <h3 class="sec-title">Junior Teaching Assistance Program</h3>        
+            <p>The J-TAP at the GUC started in the winter semester of 2005 with only few students, it was established by the Computer Science and Engineering department and then propagated to the rest of the departments at the GUC. The idea of this project has been derived from the German teaching system. </p>
+            <div class="br"></div>
+            
+              <p>The J-TAP is the process of allowing undergraduate students, a.k.a junior TAs, to assist in the lab sessions of the different courses offered by the Faculty of Media Engineering & Technology. The program aims at helping the real senior TAs with their job.</p> 
+          </div>
+        </div>
+        </div>
+      </div>
 
-            <div class="span_3_of_3 sec-content">
-              <p>Application to the J-TAP Winter Semester 2008 is now open.</p>
-            </div>
+      <div class="page description-page group hidden">
+        <div class="section">
+          <div class="span_3_of_3 widget padding">
+              <div class="span_3_of_3 sec-content">
+                <h3 class="sec-title">Local ACM Contest</h3>
+                
+                <p>The ACM International Collegiate Programming Contest (ICPC) is organized and conducted yearly by the Association of Computing Machinery (ACM). Started in the 1970s as a local contest somewhere in Texas and then having grown exponentially in the number of participating universities each year. In 2002/2003, 3850 teams from 1329 universities in 68 countries competed for the bragging rights of being the World's Programming Champions.</p>
+                <div class="br"></div>
+                <p>The ACM programming contest provides college students an opportunity to demonstrate and sharpen their problem solving and computing skills. Besides the fun of competing (and hopefully winning), the contest also provides an excellent opportunity for listening to well-known speakers and making international contacts in computing science.</p>
+                <div class="br"></div>
+                <p>The contest is a two-tiered competition among teams of students representing institutions of higher education. The winning teams of the regional contests advance to the contest world finals, which is usually hold annually around April</p>
+              </div>              
           </div>
         </div>
       </div>
 
-         
+      <div class="page csen-page group hidden">
+        <div class="section">
+          <div class="span_3_of_3 widget padding">
+              <div class="span_3_of_3 sec-content">
+                <h3 class="sec-title">What is Ju-Jutsu ?</h3>
+                <p>Ju-Jutsu is a martial art being developed since the 60s and 70s of the 20th century as a modern self defense and competition sport. The name is formed from the Hepburn transliteration of the On-reading of the Sino-Japanese charaters "柔術". The first character '柔' (Jū) means soft, the second character '術' (Jutsu) means art, so supposedly it is a soft art. Yes.</p>
+                <div class="br"></div>
+                <p> Originally, Ju-Jutsu was assembled out of a selection of the most effective and easy-to-learn techniques taken from the modern sportive competitional forms of the Japanese martial arts: Judo, Aikido, and Karate. Due to its pragmatic approach, Ju-Jutsu has since been enriched by similarly selected techniques from non-Japanese systems (boxing, muai-thai, arnis, escrima, wrestling, ...). There are currently subsystems of Ju-Jutsu for either general self-defense, sportive competition, women's self devense, combat training, police work, motion arts, etc. The German Ju-Jutsu federation (DJJV) is member of the International Jiu-Jitsu Federation (IJJF).</p>
+              </div>                                           
+          </div>
+        </div>
+      </div>
 
-                 
+    
+
     </div><!-- /.main -->
 
 

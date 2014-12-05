@@ -144,6 +144,10 @@ header .top {
   margin-right: 50px;
 }
 
+.notifications .username {
+  font-weight: 700;
+}
+
 .notifications .icon {
   display: inline-block;
   width: 20px;
@@ -476,6 +480,7 @@ ul.colored li:before {
   text-decoration: none;
 }
 
+
 .breadCrumb a{
 
   color: #64c4b6;
@@ -492,3 +497,4 @@ ul.colored li:before {
   vertical-align: middle;
   color: #696969;
 }
+
