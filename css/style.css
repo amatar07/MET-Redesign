@@ -30,6 +30,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #393d43;
 }
 
+.text-right {
+  text-align: right;
+}
+
 /* SIDEBAR *********************************/
 .sidebar {
   position: fixed;
