@@ -144,6 +144,10 @@ header .top {
   margin-right: 50px;
 }
 
+.notifications .username {
+  font-weight: 700;
+}
+
 .notifications .icon {
   display: inline-block;
   width: 20px;
