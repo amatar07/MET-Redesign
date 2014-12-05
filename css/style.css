@@ -244,6 +244,13 @@ ul.nav2 a:hover, ul.nav2 a.active {
 
 /* PAGE *************************************/
 /* GRID */
+.section .widget {
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #f1f1f1;
+  overflow: hidden;
+}
+
 .section {
   clear: both;
   padding: 0px;
@@ -254,7 +261,7 @@ ul.nav2 a:hover, ul.nav2 a.active {
   display: block;
   float: left;
   margin: 0 0 2% 2%;
-  border: 1px solid #dee1e2;
+  border: 1px solid #ebebeb;
 }
 
 .col:first-child {
