@@ -417,5 +417,16 @@ ul.colored li:before {
 }
 
 .sec-title {
+  display: inline-block;
   margin-bottom: 10px;
+}
+
+.right {
+  float: right;
+}
+
+.date {
+  font-size: 18px;
+  font-weight: bold;
+  color: #f69068;
 }
