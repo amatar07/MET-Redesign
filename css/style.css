@@ -469,3 +469,9 @@ ul.colored li:before {
 .projectSize{
   width: 85%;
 }
+.homeCase{
+  text-decoration: none;
+}
+.homeCase:hover{
+  text-decoration: none;
+}
