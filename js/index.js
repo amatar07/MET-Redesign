@@ -11,6 +11,11 @@ $( document ).ready(function() {
 		$(this).removeClass('active');
 	});
 
+	$(".notifications").on('click', function() {
+		$(".notLogged").addClass('hidden');
+		$(".loggedIn").removeClass('hidden');
+	});
+
 	// Toggle Script
 	$(".toggle-button").click(function() {
 		toggleViews($(this));
