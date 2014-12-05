@@ -17,54 +17,49 @@
 
   <body>
 
-    <!-- SIDEBAR
+   <!-- SIDEBAR
       ================================================== -->
     <div class="sidebar">
       <div class="user">
-        <img src="img/logo.png" />
+        <img src="img/user.jpg" />
+        <span class="username">GUC</span>
       </div>
-
       <nav role='navigation'>
         <ul class= "allList">
           <li class= "about allListBorder">
-            <img class ="arrow aboutRight" src="img/arrowRightWhite.png" />
-            <img class ="arrow hidden aboutDown" src="img/arrowDownWhite.png" />
-            <a class= "about1 addBorderLeft" href="#">About</a>
+          <img class ="arrow aboutRight hidden" src="img/arrowRightWhite.png" />
+          <img class ="arrow  aboutDown" src="img/arrowDownWhite.png" />
+          <a class= "about1 addBorderLeft" href="#">About</a>
+           
           </li>
           <ul class="subnavigation aboutSUB">
-            <li><a class= "submenu" href="programs.html">Programs</a></li>
+            <li><a class= "submenu active" href="programs.html">Programs</a></li>
             <li><a class= "submenu" href="#">Degrees</a></li>
             <li><a class= "submenu" href="#">Our People</a></li>
           </ul>
-
           <li class= "academics allListBorder" >
-            <img class ="arrow academicsRight" src="img/arrowRightWhite.png" />
-            <img class ="arrow hidden academicsDown" src="img/arrowDownWhite.png" />
-            <a class= "academics1"href="#">Academics</a>
-          </li>
-          <ul class="subnavigation academicsSUB">
-            <li><a class= "submenu active" href="#">Undergraduate</a></li>
+          <img class ="arrow academicsRight" src="img/arrowRightWhite.png" />
+          <img class ="arrow hidden academicsDown" src="img/arrowDownWhite.png" />
+          <a class= "academics1"href="#">Academics</a></li>
+          <ul class="subnavigation academicsSUB hidden">
+            <li><a class= "submenu" href="#">Undergraduate</a></li>
             <li><a class= "submenu" href="#">Graduate</a></li>
             <li><a class= "submenu" href="#">Research</a></li>
           </ul>
-
           <li class= "extra allListBorder">
-            <img class ="arrow extraRight" src="img/arrowRightWhite.png" />
-            <img class ="arrow hidden extraDown" src="img/arrowDownWhite.png" />
-            <a class= "extra1" href="#">Extras</a>
-          </li>
-          <ul class="subnavigation extraSUB">
+          <img class ="arrow extraRight" src="img/arrowRightWhite.png" />
+          <img class ="arrow hidden extraDown" src="img/arrowDownWhite.png" />
+          <a class= "extra1" href="#">Extras</a></li>
+          <ul class="subnavigation extraSUB hidden">
             <li><a class= "submenu" href="#">Activities</a></li>
             <li><a class= "submenu" href="#">Online Tutorials</a></li>
             <li><a class= "submenu" href="#">Show Case</a></li>
             <li><a class= "submenu" href="#">Forum</a></li>
           </ul>
-
           <li class= "agenda allListBorder">
-            <img class ="arrow agendaRight" src="img/arrowRightWhite.png" />
-            <img class ="arrow hidden agendaDown" src="img/arrowDownWhite.png" />
-            <a class= "agenda1" href="#">Agenda</a>
-          </li>
+          <img class ="arrow agendaRight" src="img/arrowRightWhite.png" />
+          <img class ="arrow hidden agendaDown" src="img/arrowDownWhite.png" />
+          <a class= "agenda1" href="#">Agenda</a></li>
           <ul class="subnavigation agendaSUB hidden">
             <li><a class= "submenu" href="#">Announcments</a></li>
             <li><a class= "submenu" href="#">Calendar</a></li>
@@ -86,8 +81,8 @@
           <!-- notifications -->
           <div class="notifications">
             <img class ="userPic" src="img/user.jpg" />
-            <span class="username">Ahmed Matar</span>
-            <img class ="options" src="img/arrowDownProfile.png" />
+        <span class="username">Ahmed Matar</span>
+         <img class ="options" src="img/arrowDownProfile.png" />
           </div>
           <!-- <div class="logo"><img src="img/logo.png"></div> -->
           <input class="search" type="text" placeholder="Search Courses, lecturers..." />
@@ -96,17 +91,16 @@
         <div class="bottom">
           <!-- identity -->
           <div class="identity">
-            <!-- <img src="img/user.jpg" /> -->
-            <span class="name"><h2>Computer Vision</h2></span>
-            <span class="info"><h3>DMET 901</h3></span>
+            <!--<img src="img/user.jpg" />-->
+            <span class="name"><h2>Policies</h2></span>
           </div>
 
           <!-- secondary nav -->
           <ul class="nav2">
-            <li><a href="#" class="active toggle-button" data-target="home-page" data-class="page">HOME</a></li>
-            <li><a href="#" class="toggle-button" data-target="material-page" data-class="page">MATERIAL</a></li>
-            <li><a href="#" class="toggle-button" data-target="calendar-page" data-class="page">CALENDAR</a></li>
-            <li><a href="#">SUBMITION</a></li>
+            <li><a href="#" class="active toggle-button" data-target="general-page" data-class="page">General Conduct</a></li>
+            <li><a href="#" class="toggle-button" data-target="internet-page" data-class="page">Internet access and use of equipment</a></li>
+            <li><a href="#" class="toggle-button" data-target="behaviour-page" data-class="page">Offensive Behaviour</a></li>
+            <li><a href="#" class="toggle-button" data-target="breach-page" data-class="page">Penalties for Breach of Guidelines</a></li>
           </ul>
         </div>
       </header>
@@ -114,26 +108,34 @@
 
       <!-- Page
         ================================================== -->
-      <div class="page home-page group">
+      <div class="page general-page group">
         <div class="section">
-          <div class="col col-img span_3_of_3">
-            <img src="img/Course/material.png">
+          <div class="col col-img span_3_of_3 widget">
+            <img src="img/Policies/general.png"> 
           </div>
         </div>
       </div>
 
-      <div class="page material-page group hidden">
+      <div class="page internet-page group hidden">
         <div class="section">
-          <div class="col col-img span_3_of_3">
-            <img src="img/Course/material.png">
+          <div class="col col-img span_3_of_3 widget">
+            <img src="img/Policies/internet.png"> 
           </div>
         </div>
       </div>
 
-      <div class="page calendar-page group hidden">
+      <div class="page behaviour-page group hidden">
         <div class="section">
-          <div class="col col-img span_3_of_3">
-            <img src="img/Course/calendar.png">
+          <div class="col col-img span_3_of_3 widget">
+            <img src="img/Policies/behaviour.png"> 
+          </div>
+        </div>
+      </div>
+
+      <div class="page breach-page group hidden">
+        <div class="section">
+          <div class="col col-img span_3_of_3 widget">
+            <img src="img/Policies/breach.png"> 
           </div>
         </div>
       </div>

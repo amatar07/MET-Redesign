@@ -318,6 +318,7 @@ ul.nav2 a:hover, ul.nav2 a.active {
   width: 100%;
 }
 
+
 .span_2_of_3 {
   width: 66%;
 }
@@ -370,4 +371,11 @@ ul.nav2 a:hover, ul.nav2 a.active {
 .allList{
   padding-top: 0px;
   margin-top: 0px;
+}
+
+.research{
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
