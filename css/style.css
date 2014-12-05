@@ -470,3 +470,12 @@ ul.colored li:before {
   color: #f69068;
 }
 
+.projectSize{
+  width: 85%;
+}
+.homeCase{
+  text-decoration: none;
+}
+.homeCase:hover{
+  text-decoration: none;
+}
