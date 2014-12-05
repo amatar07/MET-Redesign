@@ -24,18 +24,26 @@ $( document ).ready(function() {
 
 	$( ".academics" ).click(function() {
 		$(".academicsSUB").toggleClass("hidden");
+		$(".academicsRight").toggle();
+		$(".academicsDown").toggleClass("hidden");
 	});
 
 	$( ".extra" ).click(function() {
 		$(".extraSUB").toggleClass("hidden");
+		$(".extraRight").toggle();
+		$(".extraDown").toggleClass("hidden");
 	});
 
 	$( ".agenda" ).click(function() {
 		$(".agendaSUB").toggleClass("hidden");
+		$(".agendaRight").toggle();
+		$(".agendaDown").toggleClass("hidden");
 	});
 
 	$( ".about" ).click(function() {
 		$(".aboutSUB").toggleClass("hidden");
+		$(".aboutRight").toggle();
+		$(".aboutDown").toggleClass("hidden");
 	});
 
 });
