@@ -7,7 +7,8 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
-  color: #4c5157;
+  font-weight: 600;
+  color: #4a5159;
   background: #f3f7fa;
 }
 
@@ -26,7 +27,7 @@ img {
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
-  font-weight: 600;
+  color: #393d43;
 }
 
 /* SIDEBAR *********************************/
@@ -263,6 +264,7 @@ ul.nav2 a {
   padding: 7px 0;
   margin-right: 30px;
   color: #2c3e50;
+  text-transform: uppercase;
 }
 
 ul.nav2 a:hover, ul.nav2 a.active {
@@ -337,7 +339,7 @@ ul.nav2 a:hover, ul.nav2 a.active {
   background: white;
   color: #666;
   line-height: 1.5em;
-  border-radius: 3px;
+  border-radius: 0;
 }
 
 .col-img {
@@ -373,9 +375,47 @@ ul.nav2 a:hover, ul.nav2 a.active {
   margin-top: 0px;
 }
 
-.research{
-  padding-top: 10px;
-  padding-left: 20px;
-  padding-right: 10px;
-  padding-bottom: 10px;
+.widget.padding {
+  padding: 0 35px;
+}
+
+div.br {
+  margin: 14px 0;
+}
+
+p {
+  line-height: 1.6;
+  margin: 5px 0;
+}
+
+ol li {
+  line-height: 2;
+}
+
+ul.colored {
+  list-style: none;
+  padding:0;
+  margin:0;
+}
+
+ul.colored li {
+  line-height: 2;
+  padding-left: 2em; 
+  text-indent: -.7em;
+}
+
+ul.colored li:before {
+  content: "• ";
+  padding: 5px;
+  color: #f69068;
+  font-weight: bold;
+}
+
+.sec-content {
+  padding: 20px 15px;
+  border-bottom: 1px solid #e3ebee;
+}
+
+.sec-title {
+  margin-bottom: 10px;
 }
