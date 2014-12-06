@@ -17,13 +17,13 @@
 
   <body>
 
-    <!-- SIDEBAR
+   <!-- SIDEBAR
       ================================================== -->
     <div class="sidebar">
       <a href="index.html">
-        <div class="user">
-          <img src="img/logo.png" />
-        </div>
+      <div class="user" >
+        <img src="img/logo.png" />
+      </div>
       </a>
 
       <nav role='navigation'>
@@ -42,10 +42,10 @@
           <li class= "academics allListBorder" >
             <img class ="arrow academicsRight" src="img/arrowRightWhite.png" />
             <img class ="arrow hidden academicsDown" src="img/arrowDownWhite.png" />
-            <a class= "academics1 addBorderLeft" href="#">Academics</a>
+            <a class= "academics1"href="#">Academics</a>
           </li>
-          <ul class="subnavigation academicsSUB">
-            <li><a class= "submenu active" href="undergrad.html">Undergraduate</a></li>
+          <ul class="subnavigation academicsSUB hidden">
+            <li><a class= "submenu" href="undergrad.html">Undergraduate</a></li>
             <li><a class= "submenu" href="grad.html">Graduate</a></li>
             <li><a class= "submenu" href="research.html">Research</a></li>
           </ul>
@@ -65,10 +65,10 @@
           <li class= "agenda allListBorder">
             <img class ="arrow agendaRight" src="img/arrowRightWhite.png" />
             <img class ="arrow hidden agendaDown" src="img/arrowDownWhite.png" />
-            <a class= "agenda1" href="#">Agenda</a>
+            <a class= "agenda1 addBorderLeft" href="#">Agenda</a>
           </li>
-          <ul class="subnavigation agendaSUB hidden">
-            <li><a class= "submenu" href="announcements.html">Announcements</a></li>
+          <ul class="subnavigation agendaSUB">
+            <li><a class= "submenu active" href="announcements.html">Announcements</a></li>
             <li><a class= "submenu" href="calendar.html">Calendar</a></li>
             <li><a class= "submenu" href="policies.html">Policies</a></li>
           </ul>
@@ -100,20 +100,16 @@
         <div class="bottom">
           <!-- identity -->
           <div class="identity">
-            <!-- <img src="img/user.jpg" /> -->
-            <span class="name"><h2>Computer Vision</h2></span>
-            <span class="info"><h3>DMET 901</h3></span>
+            <!--<img src="img/user.jpg" />-->
+            <span class="name"><h2>Announcements</h2></span>
             <div class ="breadCrumb">
-              <a href="undergrad.html">Academics</a> <label class ="breadArrow"> > </label> <a href="grad.html">Graduate</a>  <label class ="breadArrow"> > </label> <a href="">DMET 901</a>
+              <a href="">Agenda</a> <label class ="breadArrow"> > </label> <a href="">Announcements</a>
             </div>
           </div>
 
           <!-- secondary nav -->
           <ul class="nav2">
-            <li><a href="#" class="active toggle-button" data-target="home-page" data-class="page">HOME</a></li>
-            <li><a href="#" class="toggle-button" data-target="material-page" data-class="page">MATERIAL</a></li>
-            <li><a href="#" class="toggle-button" data-target="calendar-page" data-class="page">CALENDAR</a></li>
-            <li><a href="#">SUBMITION</a></li>
+            <li><a href="#" class="active toggle-button" data-target="general-page" data-class="page">Course Announcements</a></li>
           </ul>
         </div>
       </header>
@@ -121,26 +117,10 @@
 
       <!-- Page
         ================================================== -->
-      <div class="page home-page group">
+      <div class="page general-page group">
         <div class="section">
           <div class="col col-img span_3_of_3">
-            <img src="img/Course/home.png">
-          </div>
-        </div>
-      </div>
-
-      <div class="page material-page group hidden">
-        <div class="section">
-          <div class="col col-img span_3_of_3">
-            <img src="img/Course/material.png">
-          </div>
-        </div>
-      </div>
-
-      <div class="page calendar-page group hidden">
-        <div class="section">
-          <div class="col col-img span_3_of_3">
-            <img src="img/Course/calendar.png">
+            <img src="img/Course/announcements.png"> 
           </div>
         </div>
       </div>
