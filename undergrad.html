@@ -17,12 +17,14 @@
 
   <body>
 
-   <!-- SIDEBAR
+    <!-- SIDEBAR
       ================================================== -->
-   <div class="sidebar">
-      <div class="user">
+    <div class="sidebar">
+    <a href="index.html">
+      <div class="user" >
         <img src="img/logo.png" />
       </div>
+      </a>
 
       <nav role='navigation'>
         <ul class= "allList">
@@ -40,11 +42,11 @@
           <li class= "academics allListBorder" >
             <img class ="arrow academicsRight" src="img/arrowRightWhite.png" />
             <img class ="arrow hidden academicsDown" src="img/arrowDownWhite.png" />
-            <a class= "academics1"href="#">Academics</a>
+            <a class= "academics1 addBorderLeft" href="#">Academics</a>
           </li>
-          <ul class="subnavigation academicsSUB hidden">
-            <li><a class= "submenu" href="courses.html">Undergraduate</a></li>
-            <li><a class= "submenu" href="courses2.html">Graduate</a></li>
+          <ul class="subnavigation academicsSUB">
+            <li><a class= "submenu active" href="undergrad.html">Undergraduate</a></li>
+            <li><a class= "submenu" href="grad.html">Graduate</a></li>
             <li><a class= "submenu" href="research.html">Research</a></li>
           </ul>
 
@@ -78,57 +80,60 @@
     <!-- MAIN CONTENT
       ================================================== -->
     <div class="main">
-      <header style="padding-bottom: 0;">
+      <header>
 
         <!-- Header
           ================================================== -->
         <div class="top">
           <!-- notifications -->
-          <div class="notifications">
-            <div class="notLogged">
-              <span class="username">Login/Register</span>
-              
-            </div>
-          
-            
-            <div class="loggedIn hidden">
-            <a class="homeCase" href="profile.html">
+          <a href="profile.html">
+            <div class="notifications">
               <img class ="userPic" src="img/user.jpg" />
               <span class="username">Ahmed Matar</span>
               
-              </a>
             </div>
-            
-            
-
-          </div>
-           <!-- <div class="logo"><h1>Media Engineering & Technology</h1></div>  -->
+          </a>
+          <!-- <div class="logo"><img src="img/logo.png"></div> -->
           <input class="search" type="text" placeholder="Search Courses, lecturers..." />
         </div>
 
-        <!-- <div class="bottom quote">
-         <div class="identity">
-            <span class="name"><h2></h2></span>
+        <div class="bottom">
+          <!-- identity -->
+          <div class="identity">
+            <!-- <img src="img/user.jpg" /> -->
+            <span class="name"><h2>Undergraduate Courses</h2></span>
+            <div class ="breadCrumb">
+              <a href="">Acadamics</a> <label class ="breadArrow"> > </label> <a href="">Graduate Courses</a>
+            </div>
+
+            <!-- <div class ="breadCrumb">
+              <a href="">Media Engineering & Technology</a> <label class ="breadArrow"> > </label> <a href="">Computer Science & Engineering</a><label class ="breadArrow"> > </label><a href="">Semester 5</a> 
+            </div> -->
           </div>
-        </div> -->
+
+          <!-- secondary nav -->
+          <ul class="nav2">
+            <li><a href="#" class="active">Courses</a></li>
+            <li><a href="#" class="">Bachelor Thesis</a></li>
+            <li><a href="#" class="">Bachelor Regulations</a></li>
+            <li><a href="#" class="">Bachelor Grading</a></li>
+          </ul>
+
+        </div>
       </header>
 
 
       <!-- Page
         ================================================== -->
-      <div class="page group">
-    <div class="section">
-
-
-  </div>
-    
-    <div class="section">
-      <div class="centered">
-        <img class ="projectSize"src="img/homeProjects.jpg">
-        <a href="courses2.html" class="button">View Courses</a>
+      <div class="page home-page group">
+        <div class="section">
+          <div class="col col-img span_3_of_3">
+            <a href="course.html">
+              <img src="img/Course/undergrad.png">
+            </a>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
 
     </div><!-- /.main -->
 

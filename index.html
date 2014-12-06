@@ -17,15 +17,15 @@
 
   <body>
 
-    <!-- SIDEBAR
+   <!-- SIDEBAR
       ================================================== -->
-    <div class="sidebar">
-    <a href="home.html">
-      <div class="user" >
-        <img src="img/logo.png" />
-      </div>
+   <div class="sidebar">
+      <a href="index.html">
+        <div class="user">
+          <img src="img/logo.png" />
+        </div>
       </a>
-
+  
       <nav role='navigation'>
         <ul class= "allList">
           <li class= "about allListBorder">
@@ -42,11 +42,11 @@
           <li class= "academics allListBorder" >
             <img class ="arrow academicsRight" src="img/arrowRightWhite.png" />
             <img class ="arrow hidden academicsDown" src="img/arrowDownWhite.png" />
-            <a class= "academics1 addBorderLeft" href="#">Academics</a>
+            <a class= "academics1"href="#">Academics</a>
           </li>
-          <ul class="subnavigation academicsSUB">
-            <li><a class= "submenu active" href="courses.html">Undergraduate</a></li>
-            <li><a class= "submenu" href="courses2.html">Graduate</a></li>
+          <ul class="subnavigation academicsSUB hidden">
+            <li><a class= "submenu" href="undergrad.html">Undergraduate</a></li>
+            <li><a class= "submenu" href="grad.html">Graduate</a></li>
             <li><a class= "submenu" href="research.html">Research</a></li>
           </ul>
 
@@ -80,52 +80,56 @@
     <!-- MAIN CONTENT
       ================================================== -->
     <div class="main">
-      <header>
+      <header style="padding-bottom: 0;">
 
         <!-- Header
           ================================================== -->
         <div class="top">
           <!-- notifications -->
-          <a href="profile.html">
-            <div class="notifications">
-              <img class ="userPic" src="img/user.jpg" />
-              <span class="username">Ahmed Matar</span>
+          <div class="notifications">
+            <div class="notLogged">
+              <span class="username">Login/Register</span>
               
             </div>
-          </a>
-          <!-- <div class="logo"><img src="img/logo.png"></div> -->
+          
+            
+            <div class="loggedIn hidden">
+            <a class="homeCase" href="profile.html">
+              <img class ="userPic" src="img/user.jpg" />
+              <span class="username">Ahmed Matar</span>
+              </a>
+            </div>
+            
+            
+
+          </div>
+           <!-- <div class="logo"><h1>Media Engineering & Technology</h1></div>  -->
           <input class="search" type="text" placeholder="Search Courses, lecturers..." />
         </div>
 
-        <div class="bottom">
-          <!-- identity -->
-          <div class="identity">
-            <!-- <img src="img/user.jpg" /> -->
-            <span class="name"><h2>Undergraduate Courses</h2></span>
-            <div class ="breadCrumb">
-              <a href="">Acadamics</a> <label class ="breadArrow"> > </label> <a href="">Graduate Courses</a>
-            </div>
-
-            <div class ="breadCrumb">
-              <a href="">Media Engineering & Technology</a> <label class ="breadArrow"> > </label> <a href="">Computer Science & Engineering</a><label class ="breadArrow"> > </label><a href="">Semester 5</a> 
-            </div>
+        <!-- <div class="bottom quote">
+         <div class="identity">
+            <span class="name"><h2></h2></span>
           </div>
-
-        </div>
+        </div> -->
       </header>
 
 
       <!-- Page
         ================================================== -->
-      <div class="page home-page group">
-        <div class="section">
-          <div class="col col-img span_3_of_3">
-            <a href="course.html">
-              <img src="img/Course/grad.png">
-            </a>
-          </div>
-        </div>
+      <div class="page group">
+    <div class="section">
+
+
+  </div>
+    
+    <div class="section">
+      <div class="centered">
+        <img class ="projectSize"src="img/homeProjects.jpg">
+        <a href="grad.html" class="button">View Courses</a>
       </div>
+    </div>
+  </div>
 
     </div><!-- /.main -->
 

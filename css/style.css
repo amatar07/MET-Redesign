@@ -459,8 +459,6 @@ ul.colored li:before {
   text-align: center;
 }
 
-
-
 .right {
   float: right;
 }
@@ -474,22 +472,22 @@ ul.colored li:before {
 .projectSize{
   width: 85%;
 }
+
 .homeCase{
   text-decoration: none;
 }
+
 .homeCase:hover{
   text-decoration: none;
 }
 
-
 .breadCrumb a{
-
   color: #64c4b6;
-  
   font-size: 13px;
 }
+
 .breadCrumb{
-  padding-top: 15px;
+  padding-top: 6px;
   color: #64c4b6;
   font-size: 13px;
 }
@@ -498,7 +496,6 @@ ul.colored li:before {
   color: #C2C2C2;
   padding: 0 5px;
 }
-
 
 .button {
   display: block;
